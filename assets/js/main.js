@@ -23,4 +23,23 @@ const deleteButton = document.getElementById("deleteButton");
 const equalsButton = document.getElementById("equalsButton");
 
 
+multiplactionButton.addEventListener("click",()=>{
+    inputLabel.text="*"
+});
+
+divisionButton.addEventListener("click",()=>{
+    inputLabel.text="/"
+});
+
+minusButton.addEventListener("click",()=>{
+    inputLabel.text="-"
+});
+
+additionButton.addEventListener("click",()=>{
+    inputLabel.text="+"
+});
+
+equalButton.addEventListener("click",()=>{
+    inputLabel.text="="
+});
 
