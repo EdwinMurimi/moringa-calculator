@@ -23,6 +23,30 @@ const deleteButton = document.getElementById("deleteButton");
 const equalsButton = document.getElementById("equalsButton");
 
 
+fourth-half
+fourth-half
+rightBracketButton.addEventListener('click', () => {
+    inputLabel.text=")"
+});
+plusMinusButton.addEventListener("click", () => {
+    inputLabel.text = "+-"
+});
+
+nineButton.addEventListener("click", () => {
+    inputLabel.text = '9'
+});
+
+sixButton.addEventListener("click", () => {
+    inputLabel.text = '6'
+});
+
+deleteButton.addEventListener("click", () => {
+    inputLabel.text = 'x'
+  
+clearButton.addEventListener('click', () => {
+    inputLabel.text = "";
+main
+
  main
 clearButton.addEventListener('click', () => {
     inputLabel.text = "";
@@ -46,6 +70,7 @@ additionButton.addEventListener("click",()=>{
 equalButton.addEventListener("click",()=>{
     inputLabel.text="="
  third-half
+main
 });
 
 leftBracketButton.addEventListener('click', () => {
