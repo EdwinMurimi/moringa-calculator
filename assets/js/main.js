@@ -24,6 +24,7 @@ const equalsButton = document.getElementById("equalsButton");
 
 
 fourth-half
+fourth-half
 rightBracketButton.addEventListener('click', () => {
     inputLabel.text=")"
 });
@@ -44,6 +45,31 @@ deleteButton.addEventListener("click", () => {
   
 clearButton.addEventListener('click', () => {
     inputLabel.text = "";
+main
+
+ main
+clearButton.addEventListener('click', () => {
+    inputLabel.text = "";
+  
+multiplactionButton.addEventListener("click",()=>{
+    inputLabel.text="*"
+});
+
+divisionButton.addEventListener("click",()=>{
+    inputLabel.text="/"
+});
+
+minusButton.addEventListener("click",()=>{
+    inputLabel.text="-"
+});
+
+additionButton.addEventListener("click",()=>{
+    inputLabel.text="+"
+});
+
+equalButton.addEventListener("click",()=>{
+    inputLabel.text="="
+ third-half
 main
 });
 
