@@ -23,6 +23,7 @@ const deleteButton = document.getElementById("deleteButton");
 const equalsButton = document.getElementById("equalsButton");
 
 
+fourth-half
 rightBracketButton.addEventListener('click', () => {
     inputLabel.text=")"
 });
@@ -40,5 +41,52 @@ sixButton.addEventListener("click", () => {
 
 deleteButton.addEventListener("click", () => {
     inputLabel.text = 'x'
+  
+clearButton.addEventListener('click', () => {
+    inputLabel.text = "";
+main
 });
 
+leftBracketButton.addEventListener('click', () => {
+    inputLabel.text = "(";
+});
+
+squareRootButton.addEventListener('click', () => {
+});
+inputLabel.text = "√";
+
+modulasButton.addEventListener('click', () => {
+    inputLabel.text = "%";
+});
+
+sevenButton.addEventListener('click', () => {
+    inputLabel.text = "7";
+}); 
+
+eightButton.addEventListener('click', () => {
+    inputLabel.text = "8";
+});
+
+fourButton.addEventListener('click', () => {
+    inputLabel.text = "4";
+});
+
+fiveButton.addEventListener('click', () => {
+    inputLabel.text = "5";
+});
+
+oneButton.addEventListener('click', () => {
+    inputLabel.text = "1";
+});
+
+twoButton.addEventListener('click', () => {
+    inputLabel.text = "2";
+});
+
+decimalButton.addEventListener('click', () => {
+    inputLabel.text = ".";
+});
+
+zeroButton.addEventListener('click', () => {
+    inputLabel.text = "0";
+});
