@@ -23,4 +23,22 @@ const deleteButton = document.getElementById("deleteButton");
 const equalsButton = document.getElementById("equalsButton");
 
 
+rightBracketButton.addEventListener('click', () => {
+    inputLabel.text=")"
+});
+plusMinusButton.addEventListener("click", () => {
+    inputLabel.text = "+-"
+});
+
+nineButton.addEventListener("click", () => {
+    inputLabel.text = '9'
+});
+
+sixButton.addEventListener("click", () => {
+    inputLabel.text = '6'
+});
+
+deleteButton.addEventListener("click", () => {
+    inputLabel.text = 'x'
+});
 
